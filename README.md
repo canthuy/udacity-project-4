@@ -18,7 +18,12 @@ This application is provided to you as an alternative starter project if you do 
 ```
 
 ## AWS Cloud Setup
-
+- RDS - Database Host: udacityproject.cs7gv4jnughy.us-east-1.rds.amazonaws.com
+- RDS - Database Port: 5432
+- RDS - Database Name: udacity_project
+- Elastic Beanstalk URL: http://udagram-api-env.eba-a2habsqp.us-east-1.elasticbeanstalk.com/
+- S3 Endpoint: http://udagram-thuyct.s3-website-us-east-1.amazonaws.com/
+  
 ## Testing
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
