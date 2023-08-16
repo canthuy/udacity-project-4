@@ -60,6 +60,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
+            eb setenv URL=$URL POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PORT=$POSTGRES_PORT POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_DB=$POSTGRES_DB JWT_SECRET=$JWT_SECRET AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE AWS_BUCKET=$AWS_BUCKET 
 
 workflows:
   udagram:
